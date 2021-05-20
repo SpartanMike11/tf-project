@@ -20,6 +20,6 @@ resource "aws_instance" "web-server" {
   subnet_id = aws_subnet.main.id
 
   tags = {
-    Name = "HelloWorld2"
+    Name = "HelloWorld24"
   }
 }
